@@ -8,7 +8,46 @@ Ingressando em uma Vinícola de médio porte ___(Empresa Produtora De vinhos)___
 - Dados serão armazenados localmente;
 - Ferramenta Pentaho fará o processo de ETL;
 - Deverá ser aplicada uma modelagem multidimensional;
-- Criar 4 tabelas Dimensão;
+- Criar 4 tabelas Dimensões;
 - Criar 1 tabela Fato Associativa;
 - Deve-se permanecer apenas com as SKs referentes na Fato;
 - Realizar remoção de redundâncias nos atributos.
+
+### ◾Steps Utilizados na criação das ___Dim_Tables___ Por Meio Da Ferramenta __Pentaho__:
+Após definição do projeto e ter trabalhado na arquitetura do nosso DW, é momento de partimos para a conexão e criação das primeiras regras de ETL e através da ferramenta __Pentaho__
+com o nosso banco de dados, nesta primeira etapa de transformação, criaremos as _tabelas dimensões_ e aplicaremos todos os steps necessários conforme ilustrado logo a seguir ↓
+
+![DIM](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/ETL%20-%20DIM_Tables.png)
+
+### ◾Steps Utilizados na criação da ___Fact_Table___ Por Meio Da Ferramenta __Pentaho__:
+
+![FACT](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/ETL-%20Fact_Table.png)
+
+### ◾Definindo Updates: 
+Tendo realizado a primeira carga para validação das etapas anteriores, agora é momento de agendarmos atualizações por meio de uma tarefa ou _'JOB'_ dentro do __Pentaho__. Para isso, devemos levar em consideração as necessidades do negócio bem como o volume e quantidade de dados que serão processados. Neste caso, setamos uma atualização para cada 3 minutos, além disso, adicionamos uma etapa de notificação por email para saber o andamento da situação das atualização.
+
+![jobupdate](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/Update_JOB.png)
+
+### ◾Diagrama Entidade-Relacionamenro(DER) Do DW No SQL Server: 
+
+![DER](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/DER_COM_DW.png)
+
+### ◾ Tecnologias Utilizadas: 
+<div <br> 
+<img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white">
+<img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
+</div> 
+
+## Autor:
+
+<img  src="https://github.com/Philippeizidorio/Dashboard_PowerBIMarketing/assets/145637595/dd3c301c-3cd3-4808-92c8-a321553f7acf" width="80" alt="cognitiveclass.ai logo" align="left" /> 
+
+### &nbsp;&nbsp;Philippe Izidório
+
+<p>
+&nbsp;&nbsp;Cientista de Dados / Business Intelligence / Analista de Dados<br/>
+&nbsp;&nbsp;LinkedIn: https://www.linkedin.com/in/philippeizidorio/<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail: euphilippeizidorio@gmail.com<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portifólio de projetos em Data Science: https://github.com/Philippeizidorio
+</p>
+
