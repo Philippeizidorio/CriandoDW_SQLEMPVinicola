@@ -35,6 +35,7 @@ Tendo realizado a primeira carga para validação das etapas anteriores, agora �
 ### ◾ Tecnologias Utilizadas: 
 <div <br> 
 <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white">
+<img src="https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/assets/145637595/a2ff1f77-cccf-45f6-8ecc-5a9735f2e64c">
 <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
 </div> 
 
