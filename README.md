@@ -24,7 +24,7 @@ com o nosso banco de dados, nesta primeira etapa de transformação, criaremos a
 ![FACT](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/ETL-%20Fact_Table.png)
 
 ### ◾Definindo Updates: 
-Tendo realizado a primeira carga para validação das etapas anteriores, agora é momento de agendarmos atualizações por meio de uma tarefa ou _'JOB'_ dentro do __Pentaho__. Para isso, devemos levar em consideração as necessidades do negócio bem como o volume e quantidade de dados que serão processados. Neste caso, setamos uma atualização para cada 3 minutos, além disso, adicionamos uma etapa de notificação por email para saber o andamento da situação das atualização.
+Tendo realizado a primeira carga para validação das etapas anteriores, agora é momento de agendarmos atualizações por meio de uma tarefa ou _'JOB'_ dentro do __Pentaho__. Para isso, devemos levar em consideração as necessidades do negócio bem como o volume e quantidade de dados que serão processados. Neste caso, defini uma atualização para cada 3 minutos, além disso, adicionei uma etapa de notificação por email para sabermos o andamento da situação das atualização.
 
 ![jobupdate](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/Update_JOB.png)
 
