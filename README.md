@@ -8,8 +8,6 @@ Ingressando em uma Vinícola de médio porte ___(Empresa Produtora De vinhos)___
 - Dados serão armazenados localmente;
 - Ferramenta Pentaho fará o processo de ETL;
 - Deverá ser aplicada uma modelagem multidimensional;
-- Criar 4 tabelas Dimensões;
-- Criar 1 tabela Fato Associativa;
 - Deve-se permanecer apenas com as SKs referentes na Fato;
 - Realizar remoção de redundâncias nos atributos.
 
