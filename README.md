@@ -11,13 +11,13 @@ Ingressando em uma Vinícola de médio porte ___(Empresa Produtora De vinhos)___
 - Deve-se permanecer apenas com as SKs referentes na Fato;
 - Realizar remoção de redundâncias nos atributos.
 
-### ◾Steps Utilizados na criação das ___Dim_Tables___ Por Meio Da Ferramenta __Pentaho__:
+### ◾Steps Utilizados na criação das ___'Dim_Tables'___ Por Meio Da Ferramenta __Pentaho__:
 Após definição do projeto e ter trabalhado na arquitetura do nosso DW, é momento de partimos para a conexão e criação das primeiras regras de ETL e através da ferramenta __Pentaho__
 com o nosso banco de dados, nesta primeira etapa de transformação, criaremos as _tabelas dimensões_ e aplicaremos todos os steps necessários conforme ilustrado logo a seguir ↓
 
 ![DIM](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/ETL%20-%20DIM_Tables.png)
 
-### ◾Steps Utilizados na criação da ___Fact_Table___ Por Meio Da Ferramenta __Pentaho__:
+### ◾Steps Utilizados na criação da ___'Fact_Table'___ Por Meio Da Ferramenta __Pentaho__:
 
 ![FACT](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/ETL-%20Fact_Table.png)
 
