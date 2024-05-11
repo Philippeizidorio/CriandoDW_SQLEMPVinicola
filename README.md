@@ -26,7 +26,7 @@ Tendo realizado a primeira carga para validação das etapas anteriores, agora �
 
 ![jobupdate](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/Update_JOB.png)
 
-### ◾Diagrama Entidade-Relacionamento(DER) Do DW No SQL Server: 
+### ◾Exemplificação Do Diagrama Entidade-Relacionamento(DER) Do DW No SQL Server: 
 
 ![DER](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/DER_COM_DW.png)
 
