@@ -1,4 +1,4 @@
-# Criando Um Data Warehouse(DW) No SQL Server Do Setor Comercial De Uma Empresa Produtora De Vinhos 💱🍇
+# Criando Um Data Warehouse(DW) No SQL Server Utilizando Pentaho 💱🗃️
 ![Alt ou título da imagem](https://github.com/Philippeizidorio/CriandoDW_SQLEMPVinicola/blob/main/wineryfinan.png)
 
 ### ◾Contexto:
